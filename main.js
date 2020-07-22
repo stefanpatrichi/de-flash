@@ -1,4 +1,6 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu, MenuItem } = require('electron');
+const fs = require('fs');
+const path = require('path');
 
 function createWindow () {
   const win = new BrowserWindow({
@@ -12,7 +14,17 @@ function createWindow () {
   win.loadFile('index.html');
 }
 
-app.whenReady().then(createWindow);
+let pathName = path.join(__dirname, 'public');
+
+function chkTitle(li) {
+    return li === li.toUpperCase();
+}
+
+let content = fs.readFileSync(path.join(pathName, 'german_vocab.txt')).toString().split('\r\n');
+
+app.on('ready', () => {
+    createWindow();
+});
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {

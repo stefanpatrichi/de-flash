@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { title } = require('process');
 
 let pathName = path.join(__dirname, 'public');
 
@@ -9,7 +8,6 @@ function chkTitle(li) {
 }
 
 let content = fs.readFileSync(path.join(pathName, 'german_vocab.txt')).toString().split('\n');
-console.log(content[1]);
 
 titleArr = new Array(content.length);
 titleArr.fill(false);

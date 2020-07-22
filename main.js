@@ -24,6 +24,17 @@ let content = fs.readFileSync(path.join(pathName, 'german_vocab.txt')).toString(
 
 app.on('ready', () => {
     createWindow();
+    const template = [
+        {
+            label: 'Lessons',
+            submenu: []
+        }
+    ]
+    content.forEach((item) => {
+        if(chkTitle(item)) template[0].submenu.push({ label: item });
+    });
+    const menu = Menu.buildFromTemplate(template);
+    Menu.setApplicationMenu(menu);
 });
 
 app.on('window-all-closed', () => {

@@ -1,0 +1,22 @@
+{
+  "name": "de-flash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanpatrichi/de-flash.git"
+  },
+  "author": "Stefan Patrichi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanpatrichi/de-flash/issues"
+  },
+  "homepage": "https://github.com/stefanpatrichi/de-flash#readme",
+  "devDependencies": {
+    "electron": "^9.1.1"
+  }
+}

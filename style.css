@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(201, 231, 250);
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.examples {
+    text-align: center;
+}
+
+.de {
+    font-weight: bold;
+}
+
+.en {
+    font-style: italic;
+}
+
+#eg {
+    color: rgb(34, 34, 255);
+    font-size: 1.1em;
+}
+
+#word-de {
+    font-size: 2em;
+    margin-bottom: -3px;
+}
+
+#word-en {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-width: thin;
+}
+
+#example-de {
+    font-size: 1.4em;
+    margin-top: -2px;
+    margin-bottom: -4px;
+}
+
+#example-en {
+    font-size: 1.2em;
+}

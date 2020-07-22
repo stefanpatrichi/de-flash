@@ -1,6 +1,22 @@
 const fs = require('fs');
 const path = require('path');
-const line = "etwas mieten = to rent something : Wir werden ein Auto mieten und die Küste entlang fahren. : We're going to rent a car and drive down the coast.";
+const { title } = require('process');
+
+let pathName = path.join(__dirname, 'public');
+
+function chkTitle(li) {
+    return li === li.toUpperCase();
+}
+
+let content = fs.readFileSync(path.join(pathName, 'german_vocab.txt')).toString().split('\n');
+console.log(content[1]);
+
+titleArr = new Array(content.length);
+titleArr.fill(false);
+
+titleArr.forEach((item, index) => {
+    if(chkTitle(content[index])) titleArr[index] = true; 
+});
 
 arr = line.split(' : ');
 wordDE = document.getElementById('word-de');

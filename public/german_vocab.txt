@@ -1,0 +1,115 @@
+GEBURTSTAG
+das Geburtstag = birthday
+feiern = to celebrate
+die Party = party
+das Geschenk = present/gift
+der Kuchen = cake
+der Computer = computer
+REISE
+Reise = trip : Unsere Reise nach Thailand war wunderschön. : Our trip to Thailand was wonderful.
+reisen = to travel : Letzten Sommer sind wir viel gereist. : We travelled a lot last summer.
+etwas buchen = to book something : Wir planen eine Reise, aber wir haben noch nichts gebucht. : We're planning a trip, but haven't booked anything yet.
+anstrengend = exhausting : Die Reise nach München war anstrengend. : The journey to Munich was exhausting.
+wandern = to hike
+aufs Land fahren = to go to the countryside : Ich möchte mich entspannen. Wollen wir am Wochenende aufs Land fahren? : I want to relax. Should we go to the countryside at the weekend? 
+ans Meer fahren = to go to the seaside : Meine Kinder freuen sich, weil wir ans Meer fahren. My kids are happy because we're going to the seaside.
+in die Berge fahren = to go to the mountains : Leon fährt oft in die Berge, weil er gerne wandert. 
+die Unterkunft = accommodation : Hast du schon nach Unterkünften gesucht? : Have you looked for accommodation yet?
+das Vergleichsportal = comparison website : Ich schaue immer zuerst auf Vergleichsportalen nach Angeboten. : I always look for offers on comparison websites first.
+die Anreise = arrival : Wir können ab 12 Uhr anreisen. : We can arrive from 12 p.m.
+die Abreise = departure : Wir reisen Morgen ab. : We're leaving tomorrow.
+das Hotel = hotel : Ich habe schon ein Hotel in Berlin gebucht. : I've already booked a hotel in Berlin.
+übernachten = to stay overnight
+die Pension = guesthouse : Meine Freunde haben in einer Pension im Stadtzentrum übernachtet. : My friends stayed in a guesthouse in the city centre.
+das Einzelzimmer = single room : Ich möchte ein Einzelzimmer reservieren. : I'd like to book a single room.
+das Doppelzimmer = double room : Wir haben ein Doppelzimmer mit Frühstück gebucht. : We booked a double room with breakfast.
+stornieren = to cancel (a booking) : Die Buchung kann kostenlos storniert werden. : The booking can be cancelled free of charge.
+ESSEN
+das Essen = food
+das Frühstück = breakfast
+frühstücken = to have breakfast
+das Mittagessen = lunch
+das Abendessen = dinner
+die Schweinsaxe = roasted pork leg
+das Gulasch = goulash
+die Bratwurst = sausage
+AM STRAND
+der Strand = beach : Kommst du mit zum Strand? : Are you coming along to the beach?
+in den Urlaub fahren = to go on holiday : Im Sommer werden wir in den Urlaub fahren. : We'll go on holiday in summer.
+etwas mieten = to rent something : Wir werden ein Auto mieten und die Küste entlang fahren. : We're going to rent a car and drive down the coast.
+sich sonnen = to sunbathe : Ich will mich entspannen, sonnen, und lesen. : I want to relax, sunbathe, and read.
+die Badesachen = swimwear : Vergesst eure Badesachen nicht! : Vergesst eure Badesachen nicht! 
+die Badehose = swim shorts : Ich muss eine neue Badehose kaufen. : I have to buy new swim shorts.
+der Badeanzug = swimsuit : Hannah und Svenja haben den gleichen Badeanzug. : Hannah and Svenja have the same swimsuit.
+schnorcheln (gehen) = to go snorkelling : Hast du Lust zu schnorcheln? : Do you want to go snorkelling?
+surfen (gehen) = to go surfing : In Portugal werden wir surfen. : We're going to go surfing in Portugal.
+SKI
+Ski fahren = to ski : Ich habe Ski fahren gelernt, als ich klein war. : I learned to ski when I was young.
+der Anfänger, die Anfängerin = beginner : Sie ist Anfängerin; es ist das erste Mal, dass sie Ski fährt. : She is a novice skier; this is her first time skiing.
+fortgeschrittener Skifahrer, fortgeschrittene Skifahrerin = intermediate skier : Schließ dich diesem Kurs an, wenn du ein fortgeschrittener Skifahrer bist. : Join this class if you are an intermediate skier.
+erfahrener Skifahrer, erfahrene Skifahrerin = experienced skier : Diese Route ist nur für erfahrene Skifahrer geeignet. : This route is only for experienced skiers.
+das Skigebiet = ski resort : Sie fahren im Februar immer in ein Skigebiet. : They always go to a ski resort in February.
+die Skihütte = ski lodge : Wir übernachten immer in einer Skihütte, wenn wir Skifahren gehen. : We always stay in a ski lodge when we go skiing.
+die Skischule = ski school : Wenn du ein Anfänger bist, solltest du zur Skischule gehen. : If you're a novice, you should go to the ski school.
+die Piste = slope : Ich liebe das Gefühl, auf meinen Skiern die Pisten herunter zu fahren. : I love the feeling of speeding down the slopes on my skis!
+der Sessellift = chair lift
+das Snowboarding = snowboarding : Ihm gefällt Snowboarding überhaupt nicht. : He doesn't like snowboarding at all.
+MIT DEM ZUG
+der Bahnhof = train station : Der Bahnhof liegt am Stadtrand. : The train station is on the outskirts of the city.
+Hin- und Rückfahrkarte, Hin- und Rückfahrtticket = return ticket : Ich hätte gern ein Hin- und Rückfahrtticket nach Sydney, bitte. : I would like a return ticket to Sydney please.
+Ticket für eine einfache Fahrt = one-way ticket : Was kostet ein Ticket für eine einfache Fahrt? : How much does a one-way ticket cost?
+der Fahrplan = train schedule : Können Sie mir bitte einen Fahrplan geben? : May I have a copy of the train schedule please?
+die Abfahrtszeit = departure time : Was ist die Abfahrtszeit dieses Zuges? : What is the departure time of the train?
+die Ankunftszeit = arrival time : Die Ankunftszeit ist 3 Uhr. : The arrival time is three o'clock.
+der Bahnsteig = platform : Von welchem Bahnsteig fährt der Zug ab? : Which platform does the train leave from?
+der Fahrpreis = train fare
+Wagen = wagon : Ich bin in Wagen A, Platz 47. : I am in carriage A, seat 47.
+die Verspätung = delay : Wir bedauern, Ihnen mitteilen zu müssen, dass wir eine Verspätung von 15 Minuten haben.
+AM FLUGHAFEN
+der Flughafen = airport : Ich muss zwei Stunden vor Abflug am Flughafen sein. : I have to be in the airport two hours before the departure time.
+die Sicherheitskontrolle = security : Bei der Sicherheitskontrolle wurde meine Tasche durchsucht. : They searched my bag at security.
+das Terminal = terminal : Mein Flug geht vom Terminal 2. : My flight leaves from terminal 2.
+einchecken = to check in : Wenn man im Hotel ankommt, muss man einchecken. : When you arrive at the hotel you need to check in at the reception.
+der Reisepass = passport : Du kannst ohne Reisepass nicht fliegen : You cannot fly without your passport.
+das Handgepäck = hand luggage : Ich nehme meinen Laptop als Handgepäck mit. : I take my laptop as hand luggage.
+landen = to land : Das Flugzeug ist mit Verspätung gelandet. : The plane landed late.
+an Bord gehen = to board : Wir sind problemlos an Bord gegangen. : We boarded without any problems.
+KRANKHEIT
+fühlen = to feel : Ich fühle mich nicht wohl. : I don't feel well.
+die Kopfschmerzen = the headache : Er hat Kopfschmerzen gehabt. : He had a headache.
+der Husten = cough : Mein Sohn hat Husten und muss heute nicht in die Schule gehen. : My son has a cough and must not go to school today.
+die Halsschmerzen = sore throat
+erkältet sein = to have a cold : Sarah ist erkältet und kann nicht arbeiten. : Sarah has a cold and can't work.
+die Bauchschmerzen = tummy ache : Wenn ich Bauchschmerzen habe, trinke ich Tee. : When I have a tummy ache, I drink tea.
+das Fieber = the fever : Ich habe seit drei Tagen Fieber. : I've had a fever for three days.
+Mir ist übel. = I feel nauseous.
+IM KRANKENHAUS
+das Krankenhaus = hospital
+der Arzt, die Ärztin = doctor : Ich habe einen guten Arzt. : I have a good doctor. 
+die Praxis = doctor's surgery : Ich ziehe um, deshalb muss ich eine neue Praxis finden. : I'm moving house so I have to find a new doctor's surgery.
+die Krankenversicherung = health insurance : Meine Krankenversicherung ist teuer. : My health insurance is expensive.
+die Symptome = symptoms : Ich habe meine Symptome recherchiert. : I researched my symptoms. 
+die Diagnose = diagnosis : Ohne Untersuchung kann ich keine klare Diagnose stellen. : Without an examination, I cannot make a clear diagnosis.
+die Krankschreibung = sick note : Ihre Krankschreibung ist für fünf Tage. : Her sick note is for five days.
+IM URLAUB
+in den Urlaub fahren = to go on holiday : Dieses Jahr wollen wir im September in den Urlaub fahren. : This year we want to go on holiday in September.
+etwas buchen = to book something : Ich buche meist das günstigste Angebot. : I usually book the cheapest offer.
+die Städtereise = city trip : Paris ist eines der beliebtesten Ziele für Städtereisen. : Paris is one of the most popular destinations for a city trip.
+die Pauschalreise = package holiday : Pauschalreisen gefallen mir am besten - es ist alles inklusive! : I like package holidays best - they're all inclusive!
+das Resort = resort : Wenn Sie sich entspannen wollen, sollten Sie in ein Resort fahren. : If you want to relax, you should go to a resort.
+die Rundreise = round trip : Auf einer Rundreise sieht man mehrere Länder. : You see more countries on a round trip.
+die Kreuzfahrt = cruise : Eine Kreuzfahrt entlang der kroatischen Küste ist besonders romantisch und erholsam. : A cruise down the Croatian coast is especially romantic and relaxing.
+AUF DIE REISE VORBEREITEN
+vorbereiten = to prepare : Wir bereiten uns auf die Reise vor. : We're preparing for the trip.
+der Reisepass = passport : Mein Reisepass ist nicht mehr gültig. : My passport is no longer valid.
+das Visum = visa : In manchen Ländern braucht man ein Touristenvisum. : In some countries you need a tourist visa.
+packen = to pack : Du hast deinen Koffer schelcht gepackt. : You haven't packed your suitcase very well.
+die Reiseunterlagen = travel documents : Pass auf unsere Reiseunterlagen auf! : Look after our travel documents!
+der Kulturbeutel = toiletry bag : Meine Sonnencreme ist im Kulturbeutel zerplatzt. : My sun cream exploded in my toiletry bag. 
+das Gepäck = luggage : Unser Gepäck ist zu schwer. : Our luggage is too heavy. 
+LÄNDER UND WÄHRUNGEN
+die Währung = currency
+der Euro + der Cent = euro + cent : Das Ticket kostet 9 Euro und 50 Cent. : The ticket costs 9 euros 50 cents.
+die Schweizer Franken + der Rappen = Swiss franc + rappen : 100 Rappen sind ein Schweizer Franken. : 100 rappen make up one Swiss franc.
+das Pfund + der Penny = pound + penny : Der Flughafentransfer kostet 17 Pfund und 90 Pence. : The airport transfer costs 17 pounds and 90 pence.
+der Dollar + der Cent = dollar + cent : In den USA bezahlen wir mit Dollar und Cent. : In the USA, we pay with dollars and cents.

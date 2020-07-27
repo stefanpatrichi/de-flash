@@ -39,6 +39,7 @@ app.on('ready', () => {
     var topic = item;
     template[0].submenu.push({ label: item[0], click: () => {
       var word = topic[Math.floor(Math.random() * (topic.length - 1)) + 1].split(" : ");
+      if(word[1] === undefined && word[2] === undefined) word[1] = word[2] = '(no example)';
       win.webContents.send('render', word);
     } });
   });

@@ -36,9 +36,8 @@ app.on('ready', () => {
   ];
   // for each element of topics array, make its first element (the title) a submenu
   topics.forEach((item) => {
-    var topic = item;
     template[0].submenu.push({ label: item[0], click: () => {
-      var word = topic[Math.floor(Math.random() * (topic.length - 1)) + 1].split(" : ");
+      var word = item[Math.floor(Math.random() * (item.length - 1)) + 1].split(" : ");
       if(word[1] === undefined && word[2] === undefined) word[1] = word[2] = '(no example)';
       win.webContents.send('render', word);
     } });

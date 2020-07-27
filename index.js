@@ -1,10 +1,15 @@
-arr = line.split(' : ');
-wordDE = document.getElementById('word-de');
-wordEN = document.getElementById('word-en');
-exampleDE = document.getElementById('example-de');
-exampleEN = document.getElementById('example-en');
+const { ipcRenderer } = require('electron');
 
-wordDE.innerHTML = arr[0].split(' = ')[0];
-wordEN.innerHTML = arr[0].split(' = ')[1];
-exampleDE.innerHTML = arr[1];
-exampleEN.innerHTML = arr[2];
+ipcRenderer.on('render', (e, arg) => {
+  wordDE = document.getElementById('word-de');
+  wordEN = document.getElementById('word-en');
+  exampleDE = document.getElementById('example-de');
+  exampleEN = document.getElementById('example-en');
+
+  wordDE.innerHTML = arg[0].split(' = ')[0];
+  wordEN.innerHTML = arg[0].split(' = ')[1];
+  exampleDE.innerHTML = arg[1];
+  exampleEN.innerHTML = arg[2];
+});
+
+

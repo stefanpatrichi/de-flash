@@ -1,8 +1,23 @@
-const { app, BrowserWindow, Menu, MenuItem } = require('electron');
+const { app, BrowserWindow, Menu, MenuItem, ipcMain } = require('electron');
 const fs = require('fs');
 const path = require('path');
 
-function createWindow () {
+function chkTitle(li) {
+  return li === li.toUpperCase();
+}
+
+let pathName = path.join(__dirname, 'public');
+let content = fs.readFileSync(path.join(pathName, 'german_vocab.txt')).toString().split('\r\n');
+let topics = []; // topics will become a 2d array with its elements being of the form: [title, line1, line2 etc.]
+let title_index = -1;
+let i;
+// run thru content array
+for(i = 0; i < content.length; i++) {
+  if(chkTitle(content[i])) { topics.push([content[i]]); title_index++; }
+  else topics[title_index].push(content[i]);
+}
+
+app.on('ready', () => {
   const win = new BrowserWindow({
     width: 500,
     height: 500,
@@ -12,31 +27,30 @@ function createWindow () {
     }
   });
   win.loadFile('index.html');
-}
+  win.webContents.openDevTools();
 
-let pathName = path.join(__dirname, 'public');
+  const template = [
+    {
+      label: 'Lessons',
+      submenu: []
+    }
+  ];
+  // for each element of topics array, make its first element (the title) a submenu
+  topics.forEach((item) => {
+    var topic = item;
+    template[0].submenu.push({ label: item[0], click: () => {
+      var word = topic[Math.floor(Math.random() * (topic.length - 1)) + 1].split(" : ");
+      console.log(word);
+      win.webContents.send('render', word);
+    } });
+  });
 
-function chkTitle(li) {
-    return li === li.toUpperCase();
-}
-
-let content = fs.readFileSync(path.join(pathName, 'german_vocab.txt')).toString().split('\r\n');
-
-app.on('ready', () => {
-    createWindow();
-    const template = [
-        {
-            label: 'Lessons',
-            submenu: []
-        }
-    ]
-    content.forEach((item) => {
-        if(chkTitle(item)) template[0].submenu.push({ label: item });
-    });
-    const menu = Menu.buildFromTemplate(template);
-    Menu.setApplicationMenu(menu);
+  const menu = Menu.buildFromTemplate(template);
+  Menu.setApplicationMenu(menu);  
 });
 
+
+// mac stuff
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit();

@@ -27,7 +27,6 @@ app.on('ready', () => {
     }
   });
   win.loadFile('index.html');
-  win.webContents.openDevTools();
 
   const template = [
     {
@@ -40,7 +39,6 @@ app.on('ready', () => {
     var topic = item;
     template[0].submenu.push({ label: item[0], click: () => {
       var word = topic[Math.floor(Math.random() * (topic.length - 1)) + 1].split(" : ");
-      console.log(word);
       win.webContents.send('render', word);
     } });
   });
